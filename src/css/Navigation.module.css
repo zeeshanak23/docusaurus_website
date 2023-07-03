@@ -1,0 +1,14 @@
+.dazkoSection{
+    position: relative;
+}
+.dazko>img{
+    position: relative;
+    z-index: -1;
+  }
+  .name{
+    position: absolute;
+  }
+  .name h1{
+    position: absolute;
+    color: red;
+  }

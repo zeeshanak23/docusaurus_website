@@ -1,0 +1,184 @@
+.formBg>img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.formBg{
+    position: absolute;
+    z-index: -1;
+}
+.heading h1{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #e1193e;
+    text-transform: uppercase;
+    font-weight: 700
+}
+.heading h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.heading h2>span{
+    color: #e1193e;
+}
+.overlapsForm{
+    position: relative;
+    z-index: 0;
+    padding: 100px;
+}
+.formBtn>button:first-child{
+    color: #fff;
+    border: 1px solid transparent;
+    background: #1425af;
+    padding: 15px 30px !important;
+    border-radius: 0 !important;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formBtn>button:last-child{
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #e1193e;
+    padding: 15px 30px !important;
+    border-radius: 0 !important;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    background: #e1193e;
+    border-radius: 5px;   
+    cursor: pointer;
+}
+.formBtn{
+    margin-top: 30px;
+}
+.inputForm {
+    background: #0a113f;
+    padding: 50px;
+    margin-top: 0px;
+    -webkit-box-shadow: 0px 10px 33px -27px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 10px 33px -27px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 33px -27px rgba(0, 0, 0, 0.4);
+    width: 50%;
+}
+.inputForm>div h1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-style: italic;
+}
+.secondHeader{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+}
+.inputForm>div>input{
+    padding: 0;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    height: 50px !important;
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    background: transparent !important;
+    border-radius: 0;
+}
+.inputForm>input{
+    padding: 0;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    height: 50px !important;
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    background: transparent !important;
+    border-radius: 0;
+}
+.inputFirst{
+    display: flex;
+}
+.inputFirst>input:first-child{
+    margin-right: 10px;
+}
+.submitBtn>button:first-child{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #e1193e !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 50px !important;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.submitBtn>button:last-child{
+    border: 1px solid #e1193e !important;
+    color: #e1193e !important;
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 50px !important;
+    font-size: 13px;
+    background: transparent !important;
+    border-radius: 0;
+    cursor: pointer;
+}
+.submitBtn{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 414px) {
+    .formBg>img{
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+    .overlapsForm{
+        padding: 10px;
+        padding-top: 90px;
+    }
+    .heading h2{
+        font-size: 28px;
+    }
+    .inputForm{
+        width: 98%;
+    }
+    .submitBtn{
+        display: flex;
+    } 
+    .submitBtn>button:first-child{
+        padding: 0;
+        width: 180px;
+    }
+    .submitBtn>button:last-child{
+        padding: 0;
+        width: 130px;
+    }
+}
