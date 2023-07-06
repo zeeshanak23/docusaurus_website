@@ -1,0 +1,87 @@
+.heading h1{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #e1193e;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.tableSection{
+    margin-left: 7rem;
+    background: #fff;
+    -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    justify-content: center;
+    margin-top: 4rem;
+}
+.heading h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.heading h2>span{
+    color: #e1193e;
+}
+.table tbody th{
+    background: #e1193e;
+    border-bottom: 2px solid #e0e5f6;
+    color: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.table tbody tr{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+.table tbody td{
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    background: #fff;
+    vertical-align: middle;
+    border-bottom: 2px solid #f8f9fd;
+}
+.table thead{
+    background: #1425af;   
+}
+.table thead tr{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+.table thead th{
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.table tbody td:nth-child(odd) {
+    background: #f4f6fc;
+}
+.tableSection{
+    background: #fff;
+    -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    text-align: center;
+}
+@media only screen and (max-width: 414px) {
+    .tableSection{
+        margin-left: 20px;
+        width: 85%;
+    }
+    .heading{
+        margin-top: 40rem;
+    }
+    .heading h2{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,116 @@
+.heading h1{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #e1193e;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.heading h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    width: 500px;
+    margin-left: 22rem;
+}
+.heading h2>span{
+    color: #e1193e;
+}
+.JoinSection{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+.joinContent>img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.joinContent>h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.joinContent{
+    width: 100%;
+    padding: 30px 50px;
+    position: relative;
+    border-radius: 4px;
+    z-index: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.joinContent::after:first-child{
+    border-left:2px solid #e1193e;
+}
+.joinContent::after{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    -ms-transform: skew(-10deg);
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+    border-left: 1px dashed rgba(0, 0, 0, 0.2);
+}
+/* jointContent1 */
+
+.joinContent1>img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.joinContent1>h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.joinContent1{
+    width: 100%;
+    padding: 30px 50px;
+    position: relative;
+    border-radius: 4px;
+    z-index: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.containerJoin{
+    display: flex;
+}
+
+@media only screen and (max-width: 414px) {
+    .heading h2{
+        margin-left: 0;
+        font-size: 28px;
+        width: 400px;
+    }
+    .containerJoin{
+        flex-direction: column
+    }
+    .joinContent::after{
+        display: none;
+    }
+    .JoinSection {
+        margin-top: 40px;
+    }
+}
