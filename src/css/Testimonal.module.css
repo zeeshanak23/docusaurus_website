@@ -1,0 +1,127 @@
+.header h1{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #e1193e;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header h2{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+.testimonalSection{
+    background: #f0f4f7 !important;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.header{
+    text-align: center;
+}
+.testimonalImage{
+    width: 70px;
+    height: 100px;
+    margin-right: 10px;
+}
+.testimonalImage>image{
+    width: 70px;
+    height: 100px;
+}
+.imageSection{
+    display: flex;
+    padding: 20px;
+}
+.nameBox p{
+    color: #e1193e;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.nameBox h1{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #011f39;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.paragraph p{
+    width: 280px;
+    font-family: "Open Sans", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+    margin-top: 20px;
+}
+
+.containerSection{
+    width: 350px;
+    justify-content: space-between;
+    display: inline-block;
+    background: white;
+    padding: 35px 30px 30px 30px !important;
+    border-radius: 4px;
+    margin: 10px;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 12px -9px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 5px 12px -9px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 5px 12px -9px rgba(0, 0, 0, 0.17);
+    
+}
+.boxTestimonalSection{
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+}
+.quotes{
+    -ms-transform: skew(-25deg);
+    -webkit-transform: skew(-25deg);
+    transform: skew(-25deg);
+    background: #e1193e;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 10px 8px;
+    margin-top: -3rem;
+    width: 12%;
+    height: 25%;
+    margin-left: 8rem;
+}
+.quotes>img{
+    height: 20px;
+}
+.MobBoxTestimonalSection>div{
+    display: none;
+}
+.MobBoxTestimonalSection{
+    display: none;
+}
+@media only screen and (max-width: 414px) {
+    .boxTestimonalSection>div{
+        display: none ;
+    }
+    .MobBoxTestimonalSection{
+        display: none;
+    }
+    .MobBoxTestimonalSection>div{
+        display: none;
+    }
+    .MobBoxTestimonalSection>.nameBox{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .testimonalSection{
+        display: none;
+    }
+    
+}

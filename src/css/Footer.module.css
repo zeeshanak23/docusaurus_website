@@ -1,0 +1,131 @@
+.firstSection h1{
+    color: #fff;
+    display: block;
+    line-height: 1.1;
+}
+
+.footerSection{
+    padding: 90px;
+    background: #030513;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-top: -4.2rem;
+}
+.firstSection p{
+    font-size: 11px;
+    color: #e1193e;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.firstSentence{
+    font-size: 18px;
+    width: 400px;
+    margin-bottom: 1rem;
+}
+.logo>div{
+    height: 40px;
+    width: 40px;
+    float: left;
+    color: #fff;
+    border-radius: 50%;
+    background: #e1193e;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.logo>div>img{
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.forthSection>div>img{
+    width: 22%;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.forthSection>div{
+    display: flex;
+    margin-left: 22px;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.secondSection h1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.secondSection>div{
+    display: flex;
+    width: 200px;
+    text-align: center;
+}
+.secondSection>div h2{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 1rem;
+    font-weight: 500;
+}
+.thirdSection h1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.thirdSection>div h2{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 15px;
+    width: 120px;
+    margin-left: 10px;
+}
+.thirdSection>div{
+    display: flex;
+}
+.phoneIcon{
+    margin-top: 4px;
+}
+.arrowIcon{
+    margin-top: 4px;
+}
+
+@media only screen and (max-width: 414px) {
+    .footerSection{
+        padding-top: 20rem;
+        padding: 15px;
+        flex-direction: column;
+    }
+    .firstSection{
+        margin-top: 10rem;
+    }
+    .firstSection h1{
+        margin-bottom: 0;
+    }
+    .secondSection h1{
+        margin-top: 40px;
+    }
+    .thirdSection h1{
+        margin-top: 40px;
+    }
+    .forthSection>div{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .forthSection>div>img{
+        width: 98%;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+    .thirdSection>div h2{
+        width: 250px;
+    }
+}
