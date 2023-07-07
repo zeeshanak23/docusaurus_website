@@ -17,15 +17,11 @@ RUN apt-get install -y nodejs
 RUN apt-get install git -y  
 
 # RUN git clone $GITHUB_PROJECT_URL
-RUN git clone https://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@github.com/zeeshanak23/dazko.git
+RUN git clone https://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@github.com/zeeshanak23/docusaurus_website.git
 
-RUN cd dazko/fitness-dazko
+RUN cd docusaurus_website/
 
-RUN rm -r node_modules
-RUN npm install
-RUN npm cache clean --force
-RUN npm install -g npm
-RUN npm install
-
+RUN npm install --global docusaurus-init
+RUN npm update docusaurus
 
 CMD ["npm","run","start","-- --host","0.0.0.0"]
