@@ -2,11 +2,11 @@ FROM ubuntu:22.04
 
 RUN mkdir -p /website 
 
-RUN cd website/
+WORKDIR /app
 
 COPY . .
 
-RUN apt update
+RUN apt-get update
 
 RUN apt-get install curl -y 
 
@@ -16,12 +16,13 @@ RUN apt-get install -y nodejs
 
 RUN apt-get install git -y  
 
-# RUN git clone $GITHUB_PROJECT_URL
-RUN git clone https://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@github.com/zeeshanak23/docusaurus_website.git
+
+RUN git clone https://zeeshanak23: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@github.com/zeeshanak23/docusaurus_website.git
 
 RUN cd docusaurus_website/
+RUN npm install -g npm@9.6.7
+RUN npm install
+EXPOSE 3000
 
-RUN npm install --global docusaurus-init
-RUN npm update docusaurus
 
-CMD ["npm","run","start","-- --host","0.0.0.0"]
+CMD ["npm","run","start","--","--host","0.0.0.0"]
