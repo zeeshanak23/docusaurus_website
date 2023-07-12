@@ -28,6 +28,7 @@ export default function Hero() {
         <span>MENU</span>
     </div>
         <div className={`${styles.anchorTags} ${isHamburger ? styles.active : styles.close}`}>
+        <div className={styles.borderLine}></div>
         <a href="">Home</a>
         <a href="">about</a>
         <a href="">trainer</a>
@@ -68,7 +69,7 @@ export default function Hero() {
       </div>
       <div className={styles.dazko}>
       <div className={styles.imagesShadow}></div>
-        <div className={styles.dazkoImages}>
+        <div className={styles.dazkoImages2}>
         <img src='/img/dazko/bg3.webp'></img>
         </div>
         <div className={styles.dazkoHeading}>
