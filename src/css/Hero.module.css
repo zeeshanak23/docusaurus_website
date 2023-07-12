@@ -272,6 +272,10 @@
   .headerComponents{
     display: none;
   }
+  .dazkoImages>img{
+    object-fit: cover;
+    object-position: center;
+    }
   
   .hamburger{
     display: block;
