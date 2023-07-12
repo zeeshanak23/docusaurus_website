@@ -42,10 +42,11 @@ export default function Hero() {
   </div>
       <Carousel className={styles.carouselContainer} autoplay >
       <div className={styles.dazko}>
-        <div>     
+        <div className={styles.imagesShadow}></div>
+        <div className={styles.dazkoImages}>     
              <img src='/img/dazko/bg2.webp'></img>
         </div>
-
+        
         <div className={styles.dazkoHeading}>
           <h1>You only fail,when you stop trying</h1>
           <p>A small river named Duden flows by their place and supplies <br /> it with the necessary regelialia. 
@@ -54,7 +55,8 @@ export default function Hero() {
         </div>
       </div>
    <div className={styles.dazko}>
-    <div>
+   <div className={styles.imagesShadow}></div>
+    <div className={styles.dazkoImages}>
         <img src='/img/dazko/bg1.webp'></img>
         </div>
         <div className={styles.dazkoHeading}>
@@ -65,7 +67,8 @@ export default function Hero() {
         </div>
       </div>
       <div className={styles.dazko}>
-        <div>
+      <div className={styles.imagesShadow}></div>
+        <div className={styles.dazkoImages}>
         <img src='/img/dazko/bg3.webp'></img>
         </div>
         <div className={styles.dazkoHeading}>

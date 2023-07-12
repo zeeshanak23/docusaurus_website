@@ -1,21 +1,22 @@
 .features{
-  background-color: rgb(8, 0, 0);
   width: 100%;
   height: 100vh;
 }
-
-.dazko>div:first-child> img{
-    width: 100%;
-    height: 100vh;
-    min-height: 100%;
-    position: relative;
-    object-fit: fill;
-    object-position: center;
-    overflow: hidden;
-    background-position: top center;
-    background-color: #e1193e;
-    box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+.imagesShadow{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #030513;
+  opacity: .3;
 }
+.dazkoImages>img{
+  width: 100%;
+  height: 100vh;
+  object-fit: fill;
+  -o-object-position: center;
+  object-position: center;
+}
+
 .dazkoHeading>button:hover{
   border: 1px solid #1425af !important;
   background: #1425af !important;
@@ -24,7 +25,7 @@
 .dazkoHeading{
   position: relative;
   color: white;
-  top: -30rem;
+  top: -28rem;
   bottom: 0;
   left: 0;
   right: 0;
@@ -124,8 +125,8 @@
   font-size: 13px;
 }
 .phoneNumber>div{
-  font-weight: 600;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 14px;
   color: #e1193e;
 }
 .headerImage>div{

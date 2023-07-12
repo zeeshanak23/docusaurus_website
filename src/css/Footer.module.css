@@ -38,12 +38,18 @@
     height: 20px;
     margin-top: 10px;
     margin-left: 5px;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
 }
 .forthSection>div>img{
     width: 22%;
     height: 100px;
     margin-right: 10px;
     margin-top: 10px;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
 }
 .forthSection>div{
     display: flex;

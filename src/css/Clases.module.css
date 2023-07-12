@@ -33,6 +33,9 @@
     width: 100%;
     height: 350px;
     position: relative;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
 }
 .classImage>div h3{
     font-size: 26px;
