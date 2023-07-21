@@ -1,3 +1,6 @@
+.schedulesSection{
+    margin-top: -10rem;
+}
 .heading h1{
     font-size: 13px;
     display: block;
@@ -6,15 +9,6 @@
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
-}
-.tableSection{
-    margin-left: 7rem;
-    background: #fff;
-    -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
-    -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
-    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
-    justify-content: center;
-    margin-top: 4rem;
 }
 .heading h2{
     font-size: 34px;
@@ -47,6 +41,9 @@
     font-size: 14px;
     background: #fff;
     vertical-align: middle;
+    vertical-align: middle;
+    border-bottom: 2px solid #f8f9fd;
+    vertical-align: middle; 
     border-bottom: 2px solid #f8f9fd;
 }
 .table thead{
@@ -66,11 +63,23 @@
 .table tbody td:nth-child(odd) {
     background: #f4f6fc;
 }
-.tableSection{
+.table tbody tr:nth-child(5) {
+    border-bottom: 2px solid #f8f9fd;
+    -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+}
+.table{
     background: #fff;
     -webkit-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
     -moz-box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
     box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+}
+.tableSection{
+    justify-content: center;
+    display: flex;
+    background: #fff;
+    width: 100%;
     text-align: center;
 }
 @media only screen and (max-width: 414px) {
@@ -78,10 +87,10 @@
         margin-left: 20px;
         width: 85%;
     }
-    .heading{
-        margin-top: 40rem;
-    }
     .heading h2{
         font-size: 28px;
+    }
+    .schedulesSection {
+        margin-top: -10rem;
     }
 }

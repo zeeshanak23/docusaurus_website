@@ -3,7 +3,7 @@ import React from "react";
 
 const Schedules = () => {
     return (
-        <section>
+        <section className={styles.schedulesSection}>
             <div className={styles.heading}>
                 <h1>Schedules</h1>
                 <h2>Fitness <span>schedules</span></h2>

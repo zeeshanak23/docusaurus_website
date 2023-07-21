@@ -2,6 +2,9 @@
   width: 100%;
   height: 100vh;
 }
+.anchorTags>a{
+  cursor: pointer;
+}
 .imagesShadow{
   width: 100%;
   height: 100vh;
@@ -30,7 +33,7 @@
 .dazkoHeading{
   position: relative;
   color: white;
-  top: -28rem;
+  top: -27rem;
   bottom: 0;
   left: 22px;
   right: 0;
@@ -335,6 +338,7 @@
   .borderNavigation{
     display: block;
   }
+
   .anchorTags{
     width: 100%;
     background-color: black;
@@ -346,6 +350,7 @@
     margin-right: 25rem;
   }
   .anchorTags>a{
+    cursor: pointer;
     text-transform: uppercase;
     color: white;
     text-align: left;

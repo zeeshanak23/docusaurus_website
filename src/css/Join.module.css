@@ -97,6 +97,9 @@
 .containerJoin{
     display: flex;
 }
+.containerJoin>div{
+    margin-top: 40px;
+}
 
 @media only screen and (max-width: 414px) {
     .heading h2{

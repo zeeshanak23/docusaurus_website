@@ -8,7 +8,7 @@ COPY . .
 
 RUN apt-get update
 
-RUN apt-get install curl -y 
+RUN apt-get install -y curl
 
 RUN curl -s https://deb.nodesource.com/setup_18.x | bash
 

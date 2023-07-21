@@ -10,6 +10,7 @@
     color: rgba(255, 255, 255, 0.7);
     display: flex;
     margin-top: -4.2rem;
+    justify-content: center;
 }
 .firstSection p{
     font-size: 11px;
@@ -43,7 +44,7 @@
     object-position: center;
 }
 .forthSection>div>img{
-    width: 22%;
+    width: 25%;
     height: 100px;
     margin-right: 10px;
     margin-top: 10px;

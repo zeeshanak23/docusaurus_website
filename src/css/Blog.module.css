@@ -16,7 +16,7 @@
     text-align: center;
 }
 .blogContainer>img{
-    width: 17.5rem;
+    width: 21rem;
     height: 270px;
     padding-top: 20px;
     margin-top: 20px;
@@ -25,7 +25,7 @@
     object-position: center;
 }
 .blogContainer2>img{
-   width: 17.5rem;
+   width: 20rem;
     height: 270px;
     padding-top: 10px;
     object-fit: cover;
@@ -36,6 +36,7 @@
 .textBox p{
     text-transform: uppercase;
     font-size: 13px;
+    align-items: center;
     font-weight: 600;
 }
 .textBox p>span{
@@ -67,10 +68,12 @@
 .textBox{
     text-align: left;
     padding: 15px;
+    width: 350px;
 }
 .blogSection{
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 20px;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -94,7 +97,7 @@
         margin-left: 40px;
     }
     .textBox>div{
-        width: 300px;
+        width: 290px;
         margin-top: 20px;
     }
     .blog2{

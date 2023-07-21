@@ -5,6 +5,7 @@ export default function MemberShip() {
     return (
         <section className={styles.MemberShipSection}>
             <div className={styles.memberShip}>
+                <div></div>
             </div>
             <div className={styles.overlaps}>
                 <h1>WATCH OUR STORIES</h1>

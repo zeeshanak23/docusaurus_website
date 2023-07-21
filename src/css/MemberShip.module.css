@@ -1,10 +1,12 @@
-.memberShip{
+.memberShip>div{
     background-image: 
     linear-gradient(123deg, #1425af 25%, #1d2cb5 25%,
      #1d2cb5 50%, #1425af 50%, #1425af 75%, #1d2cb5 75%, #1d2cb5 100%);
     background-size: 357.71px 550.82px;
     height: 500px;
-    margin-bottom: 25%;
+}
+.memberShip{
+    width: 100%;
 }
 .overlaps h1{
     font-size: 13px;
@@ -20,7 +22,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     text-transform: uppercase;
     display: flex;
-    margin-left: 20rem;
+    justify-content: center;
     color: #fff;
 }
 .overlaps h2{
@@ -33,18 +35,16 @@
 }
 .overlaps{
     text-align: center;
-    margin: 0 auto;
     max-width: 1200px;
-    justify-content: space-between;
-    position: absolute;
-    margin-top: -41rem;
-    z-index: 1;
+    position: relative;
+    top: -20rem;
+    z-index: 11;
+    margin: 0 auto;
 }
 
 .overlapsImages{
     display: flex;
     margin-top: 30px;
-    margin-left: 6rem;
 }
 .overlapsImages>div{
     justify-content: space-between;
@@ -116,9 +116,6 @@
         margin-left: 0;
         width: 96%;
         margin-top:8rem;
-    }
-    .memberShip{
-        margin-bottom: 65%;
     }
     .overlapsHeading{
         font-size: 28px;

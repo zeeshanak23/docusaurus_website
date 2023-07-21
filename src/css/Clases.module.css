@@ -28,6 +28,14 @@
 }
 .classImage>div{
     margin: 5px;
+    width: 100%;
+}
+.classContainer{
+    display: flex;
+    width: 100%;
+}
+.classContainer>div{
+    width: 100%;
 }
 .classImage>div>img{
     width: 100%;
@@ -51,7 +59,7 @@
     z-index: 1;
     margin-top: -3.8rem;
 }
-.classImage>div h3::after{
+.title::after{
     z-index: -1;
     position: absolute;
     top: 0;
@@ -70,6 +78,26 @@
     transition: all 0.3s ease;
     opacity: 1;
 }
+.titleOpen {
+    background-color: #e1193e;
+    z-index: 1;
+}
+.price{
+    color: #fff;
+    width: 60px;
+    align-items: center;
+    transform: translateX(60px);
+    position: relative;
+    top: -20rem;
+    display: flex;
+    justify-content: center;
+    left: 20rem;
+    background-color: #1425af;
+    margin-bottom: -1.66rem;
+}
+.priceClose{
+    display: none;
+}
 .classesBtn{
     margin: 50px;
     text-align: center;
@@ -81,6 +109,10 @@
     font-family: "Roboto Condensed", Arial, sans-serif;
 }
 @media only screen and (max-width: 414px) {
+    .classContainer{
+        display: block;
+        padding: 2px;
+    }
     .heading h2{
         width: 400px;
         font-size: 25px;

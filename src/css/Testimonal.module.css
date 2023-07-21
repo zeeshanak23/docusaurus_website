@@ -1,3 +1,4 @@
+
 .header h1{
     font-size: 13px;
     display: block;
@@ -59,10 +60,10 @@
     color: gray;
     margin-top: 20px;
 }
-
 .containerSection{
+    align-items: center;
     width: 350px;
-    justify-content: space-between;
+    justify-content: center;
     display: inline-block;
     background: white;
     padding: 35px 30px 30px 30px !important;
@@ -76,8 +77,13 @@
 }
 .boxTestimonalSection{
     display: flex;
-    justify-content: center;
-    margin-left: 8rem;
+    width: 100%;
+    align-items: center;
+}
+.boxTestimonalSection2{
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 .quotes{
     -ms-transform: skew(-25deg);
@@ -105,17 +111,12 @@
     display: none;
 }
 @media only screen and (max-width: 414px) {
-    .boxTestimonalSection>div{
-        display: none ;
+    
+    .boxTestimonalSection2{
+       display: block;
     }
-    .MobBoxTestimonalSection{
-        display: none;
-    }
-    .MobBoxTestimonalSection>div{
-        display: none;
-    }
-    .MobBoxTestimonalSection>.nameBox{
-        display: none;
+    .mobileItem{
+        display: block;
     }
     .header{
         display: none;

@@ -22,6 +22,10 @@
 .heading{
     text-align: center;
 }
+.overlapsImages{
+    position: relative;
+    z-index: -22;
+}
 
 .overlapsImages>img{
     height: 400px;
@@ -29,28 +33,105 @@
     right: 0;
     bottom: 0;
     width: 100%;
-    position: relative;
-    z-index: 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 .overlapSection>div{
-    position: absolute;
-    z-index: 1;
-    margin-top: -25.5rem;
-    margin-left: 7rem;
+    position: relative;
+    z-index: 11;
+    margin-top: -27.5rem;
+    
 }
 .overlapSection{
     display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
     justify-content: space-between;
 }
-.overlapSection>div>img{
-    width: 22%;
+.trainerImage{
+    transition-delay: .2s;
+    transition: all 0.4s ease;
+}
+.trainerImage{
+    width: 100%;
 }
 .MoboverlapSection{
     display: none;
 }
+.imageOpen{
+    transform:translateX(-40px);
+}
+.textBox h3{
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+    width: 120px;
+    border: 1px dotted #fff;
+    text-align: right;
+    padding: 0px 5px;
+    height: 60xp;
+    transform: skew(10deg);
+    margin-top: 10px;
+    margin-left: 2.6rem;
+}
+.textConatiner{
+    position: relative;
+    opacity: 1;
+}
+.textBox {
+    height: 55px;
+    transform: skew(-10deg);
+    background: #1425af;
+    width: 170px;
+    padding: 8px 5px;
+}
+.nameClose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1425af;
+    transition: all 0.4s ease;
+    transform: translateX(0px);
+    z-index: -1;
+    position: relative;
+    top: -260px;
+    border: 1px solid;
+    right: -60px;
+    width: 140px;
+    padding-top: 10px;
+    text-align: right;
+    height: 60px;
+    -webkit-transform:
+        skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    opacity: 0;
+}
+.nameOpen {
+    display: flex;
+    align-items: center;
+    background-color: #1425af;
+    transition: all 0.4s ease;
+    transform: translateX(0px);
+    opacity: 1;
+    -webkit-transform:
+        skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    z-index: -1;
+    position: relative;
+    top: -260px;
+    right: -190px;
+    width: 200px;
+    padding-top: 10px;
+    text-align: right;
+    height: 60px;
+}
+
 @media only screen and (max-width: 414px) {
     .heading h2{
         font-size: 28px;
@@ -62,7 +143,7 @@
         display: none;
     }
     
-    .textBox h3{
+    .mobTextBox h3{
     font-size: 20px;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -73,7 +154,7 @@
     width: 200px;
 
     }
-    .textBox {
+    .mobTextBox {
         background: #1425af;
         width: 265px;
         border: 1px dashed rgba(255, 255, 255, 0.6);
@@ -92,7 +173,7 @@
         background: #1425af;
         
     }
-    .transformdiv{
+    .MobTransformdiv{
             height: 72px;
             width: 30px;
             -ms-transform: skew(-15deg);
