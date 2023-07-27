@@ -85,12 +85,18 @@
 @media only screen and (max-width: 414px) {
     .tableSection{
         margin-left: 20px;
-        width: 85%;
+        width: 90%;
     }
     .heading h2{
         font-size: 28px;
     }
     .schedulesSection {
         margin-top: -10rem;
+    }
+    .table thead th{
+        font-size:18px
+    }
+    .table tbody th{
+        font-size:18px;
     }
 }
