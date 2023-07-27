@@ -9,36 +9,43 @@
   display: none !important;
 }
 
-.testimonialAutoplay {
-  .ant-carousel .slick-dots li.slick-active button,
-  .ant-carousel .slick-dots li button {
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    display: flex;
-    background-color: #585757 !important;
-  }
-  .ant-carousel .slick-dots{
-    flex-direction: inherit;
-    top: 110%;
-  }
-  .slick-slide   {
-    display: flex !important;
-    justify-content: center !important;
-  }
+.testimonialAutoplay .ant-carousel .slick-dots li.slick-active button{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #585757 !important;
+}
 
+.testimonialAutoplay .ant-carousel .slick-dots li button{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #585757 !important;
+}
+.testimonialAutoplay .ant-carousel .slick-dots{
+  flex-direction: inherit;
+  top: 110%;
+}
+.testimonialAutoplay .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+body{
+  overflow-x: hidden !important;
 }
 .ant-carousel .slick-dots{
   flex-direction: column;
   text-align: center;
   margin: 0 0;
   position: absolute;
-  top: 35%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   align-items: end;
-  right: 10px;
   z-index: 99;
 }
 .ant-carousel .slick-dots li button{
@@ -61,6 +68,7 @@
 .slick-dots{
   top:30%;
 }
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -94,7 +102,6 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    left: 22rem;
     z-index: 99;
   }
   .ant-carousel .slick-dots li button{

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../../css/Testimonal.module.css'
+import styles from "../../css/Testimonal.module.css"
 import { Carousel } from 'antd'
 const Testimonal = () => {
     
@@ -44,6 +44,14 @@ const Testimonal = () => {
             header: "MARKETING MANAGER"
         }
     
+]
+const mobItmes = [
+    {
+        line: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts",
+        image: "../img/dazko/test1.webp",
+        name: "ROGER SCOTT",
+        header: "MARKETING MANAGER"
+    }
 ]
 
 return(
@@ -105,7 +113,141 @@ return(
                 })}
             </div>
         </Carousel>
-        </div>        
+        </div>     
+        <div className={`${styles.mobCarouselbox} testimonialAutoplay`}>
+        <Carousel autoplay>
+            <div>
+            {mobItmes.map((list,i)=>{
+                    return (
+                        <div className={styles.containerSection}>
+                        <div className={styles.quotes}>
+                                <img src="../img/dazko/quotes.png" alt="" />
+                            </div>
+                        <div className={styles.box} key={i}>
+                            <div className={styles.paragraph}>
+                                <p>{list.line}</p>
+                            </div>
+                            <div className={styles.imageSection}>
+                                <div className={styles.testimonalImage}>
+                                    <img src={list.image} alt="" />
+                                </div>
+                                <div className={styles.nameBox}>
+                                    <h1>{list.name}</h1>
+                                    <p>{list.header}</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })}
+            </div>
+
+            <div>
+            {mobItmes.map((list,i)=>{
+                    return (
+                        <div className={styles.containerSection}>
+                        <div className={styles.quotes}>
+                                <img src="../img/dazko/quotes.png" alt="" />
+                            </div>
+                        <div className={styles.box} key={i}>
+                            <div className={styles.paragraph}>
+                                <p>{list.line}</p>
+                            </div>
+                            <div className={styles.imageSection}>
+                                <div className={styles.testimonalImage}>
+                                    <img src={list.image} alt="" />
+                                </div>
+                                <div className={styles.nameBox}>
+                                    <h1>{list.name}</h1>
+                                    <p>{list.header}</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })}
+            </div>
+
+            <div>
+            {mobItmes.map((list,i)=>{
+                    return (
+                        <div className={styles.containerSection}>
+                        <div className={styles.quotes}>
+                                <img src="../img/dazko/quotes.png" alt="" />
+                            </div>
+                        <div className={styles.box} key={i}>
+                            <div className={styles.paragraph}>
+                                <p>{list.line}</p>
+                            </div>
+                            <div className={styles.imageSection}>
+                                <div className={styles.testimonalImage}>
+                                    <img src={list.image} alt="" />
+                                </div>
+                                <div className={styles.nameBox}>
+                                    <h1>{list.name}</h1>
+                                    <p>{list.header}</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })}
+            </div>
+
+            <div>
+            {mobItmes.map((list,i)=>{
+                    return (
+                        <div className={styles.containerSection}>
+                        <div className={styles.quotes}>
+                                <img src="../img/dazko/quotes.png" alt="" />
+                            </div>
+                        <div className={styles.box} key={i}>
+                            <div className={styles.paragraph}>
+                                <p>{list.line}</p>
+                            </div>
+                            <div className={styles.imageSection}>
+                                <div className={styles.testimonalImage}>
+                                    <img src={list.image} alt="" />
+                                </div>
+                                <div className={styles.nameBox}>
+                                    <h1>{list.name}</h1>
+                                    <p>{list.header}</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })}
+            </div>
+
+            <div>
+            {mobItmes.map((list,i)=>{
+                    return (
+                        <div className={styles.containerSection}>
+                        <div className={styles.quotes}>
+                                <img src="../img/dazko/quotes.png" alt="" />
+                            </div>
+                        <div className={styles.box} key={i}>
+                            <div className={styles.paragraph}>
+                                <p>{list.line}</p>
+                            </div>
+                            <div className={styles.imageSection}>
+                                <div className={styles.testimonalImage}>
+                                    <img src={list.image} alt="" />
+                                </div>
+                                <div className={styles.nameBox}>
+                                    <h1>{list.name}</h1>
+                                    <p>{list.header}</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    )
+                })}
+            </div>
+
+        </Carousel>
+        </div>  
     </section>
 )
 }

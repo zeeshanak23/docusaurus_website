@@ -185,6 +185,7 @@
         text-transform: uppercase;
         font-weight: 500;
         margin-bottom: 70px;
+        margin-left: -20px;
     }
     .SubHeading2>span{
         font-size: 13px;

@@ -16,7 +16,6 @@ RUN apt-get install -y nodejs
 
 RUN apt-get install git -y  
 
-
 RUN git clone https://zeeshanak23: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@github.com/zeeshanak23/docusaurus_website.git
 
 RUN cd docusaurus_website/
@@ -25,4 +24,4 @@ RUN npm install
 EXPOSE 3000
 
 
-CMD ["npm","run","start","--","--host","0.0.0.0"]
+CMD ["npm","run","serve","--","--host","0.0.0.0"]

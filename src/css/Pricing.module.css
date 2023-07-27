@@ -78,6 +78,10 @@
     cursor: pointer;
     border-radius: 0;
 }
+.priceListBtn:hover{
+    background-color: blue !important;
+    border: 1px solid blue !important;
+}
 .priceItem{
     display: flex;
     justify-content: space-between;
@@ -104,6 +108,7 @@
 .priceContent{
     display: flex;
     padding: 100px;
+    justify-content: center;
 }
 .priceItemHeading p{
     margin-left: 36px;

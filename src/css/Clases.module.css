@@ -83,7 +83,7 @@
     z-index: 1;
 }
 .price{
-    color: #fff;
+    /* color: #fff;
     width: 60px;
     align-items: center;
     transform: translateX(60px);
@@ -93,7 +93,16 @@
     justify-content: center;
     left: 20rem;
     background-color: #1425af;
-    margin-bottom: -1.66rem;
+    margin-bottom: -1.66rem; */
+    display: none;
+}
+.titleOpen:hover{
+    background-color: blue;
+    color: white;
+}
+.titleOpen:hover::after{
+    background-color: blue;
+    color: white;
 }
 .priceClose{
     display: none;

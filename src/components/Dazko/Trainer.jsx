@@ -107,8 +107,7 @@ const Trainer = () => {
                         </div>
                     </div>
 
-                    <div 
-                    >
+                    <div>
                     <img src="../img/dazko/trainer2.png" alt="" />
                     <div>
                             <div className={styles.mobTextBox}>

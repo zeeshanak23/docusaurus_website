@@ -18,6 +18,7 @@
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-top: -4rem;
 }
 .header{
     text-align: center;
@@ -27,23 +28,22 @@
     height: 100px;
     margin-right: 10px;
 }
-.testimonalImage>image{
+.testimonalImage>img{
     width: 70px;
-    height: 100px;
+    height: 70px;
 }
 .imageSection{
     display: flex;
-    padding: 20px;
+    padding-top: 20px;
 }
 .nameBox p{
     color: #e1193e;
     font-size: 13px;
-    margin-top: 5px;
 }
 .nameBox h1{
-    font-weight: 700;
+    font-weight: 800;
     margin-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 0;
     color: #011f39;
     font-family: "Roboto Condensed", Arial, sans-serif;
@@ -54,9 +54,9 @@
     width: 280px;
     font-family: "Open Sans", Arial, sans-serif;
     background: #fff;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.8;
-    font-weight: 400;
+    font-weight: 300;
     color: gray;
     margin-top: 20px;
 }
@@ -97,7 +97,7 @@
     transition: all 0.3s ease;
     padding: 10px 8px;
     margin-top: -3rem;
-    width: 12%;
+    width: 15%;
     height: 25%;
     margin-left: 8rem;
 }
@@ -107,22 +107,24 @@
 .MobBoxTestimonalSection>div{
     display: none;
 }
-.MobBoxTestimonalSection{
+.mobCarouselbox{
     display: none;
 }
+.carouselbox{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
 @media only screen and (max-width: 414px) {
-    
-    .boxTestimonalSection2{
-       display: block;
-    }
-    .mobileItem{
+    .mobCarouselbox{
         display: block;
     }
-    .header{
+    .carouselbox{
         display: none;
     }
     .testimonalSection{
-        display: none;
+        margin-top: 0rem;
+        margin-top: 8rem;
     }
     
 }

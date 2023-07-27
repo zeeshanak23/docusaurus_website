@@ -4,64 +4,54 @@ import { ArrowRightOutlined }  from '@ant-design/icons'
 
 const Classes = () => {
 
-    const [isActive1,setActive1]=useState(false);
-    const [isActive2,setActive2]=useState(false);
-    const [isActive3,setActive3]=useState(false);
-    
-    const onHover = (index) => {
-        console.log(index)
+    const [isOpen1,setOpen1]=useState(false);
+    const [isOpen2,setOpen2]=useState(false);
+    const [isOpen3,setOpen3]=useState(false);
+
+    const inActiveFunction = (index) => {
         if (index == 0) {
-            setActive1(true)
-        } else if (index == 1) {
-            setActive2(true)
-        } else if (index == 2) {
-            setActive3(true)
+            setOpen1(false)
         }
+        else if (index == 1){
+            setOpen2(false)
+        } 
+        else if (index == 2){
+            setOpen3(false)
+        }
+    }
+    
+    const activeFunction = (index) => {
+        if (index == 0) {
+            setOpen1(true)
+        }
+        else if (index == 1){
+            setOpen2(true)
+        } 
+        else if (index == 2){
+            setOpen3(true)
+        } 
     }
 
     const classItem = [{
         image:"/img/dazko/class1.webp",
         title:"body builder",
-        active:isActive1,
+        active:isOpen1,
         price:"$100"
     },
     {
         image:"/img/dazko/class2.webp",
         title:"weight lifting",
-        active:isActive2,
+        active:isOpen2,
         price:"$100"
     },
     {
         image:"/img/dazko/class3.webp",
         title:"cardio",
-        active:isActive3,
+        active:isOpen3,
         price:"$100"    
     }
 ]
 
-const inActiveFunction = (index) => {
-    if (index == 0) {
-        setActive1(false)
-    }
-    else if (index == 1){
-        setActive2(false)
-    } 
-    else if (index == 2){
-        setActive3(false)
-    }
-}
-
-const activeFunction = (index) => {
-    if (index == 0) {
-        setActive1(true)
-    }
-    else if (index == 1){
-        setActive2(true)
-    } 
-    else if (index == 2){
-        setActive3(true)
-    } 
-}
 
 
     return (

@@ -13,13 +13,19 @@
   opacity: .35;
 }
 .dazkoImages>img{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   object-fit: fill;
   object-position: center;
 }
-.dazkoImages2>img{
+.dazkoImages{
   width: 100%;
+}
+.dazkoImages2{
+  width: 100%;
+}
+.dazkoImages2>img{
+  width: 100vw;
   height: 100vh;
   object-fit: cover;
   object-position: center;
