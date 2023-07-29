@@ -169,7 +169,7 @@
         width: 288px;
         position: absolute;
         margin-top: -1rem;
-        margin-left: 5rem;
+        margin-left: 4rem;
         z-index: 1;
         background: #1425af;
         
@@ -182,7 +182,7 @@
             transform: skew(-15deg);
             background: #1425af;
            margin-left: 17rem;
-            margin-top: -4.1rem;
+            margin-top: -4.12rem;
             position: absolute;
            
     }
