@@ -182,12 +182,11 @@
             transform: skew(-15deg);
             background: #1425af;
            margin-left: 17rem;
-            margin-top: -4.13rem;
+            margin-top: -4.1rem;
             position: absolute;
            
     }
     .MoboverlapSection>div{
-        padding: 10px;
         margin-top: 50px;
     }
     
