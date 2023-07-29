@@ -325,7 +325,7 @@
   }
   .dazkoHeading h1{
     font-size: 35px;
-    width: 400px;
+    width: 380px;
   }
   .dazkoHeading p{
     font-size: 18px;
@@ -350,7 +350,7 @@
     background-color: black;
     color: white;
     position: absolute;
-    margin-top: 28rem;
+    margin-top: 26rem;
     padding: 25px 10px;
     margin-left: -20px;
     margin-right: 25rem;
