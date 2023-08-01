@@ -151,12 +151,16 @@
     }
     .boxContent{
         height: 500px;
+        width: 400px;
     }
     .priceContent{
         flex-direction: column;
         margin: 0;
         width: 400px;
         padding: 0;
+    }
+    .priceItem{
+        width: 350px;
     }
     .pricingBoxItem{
         border: none;
